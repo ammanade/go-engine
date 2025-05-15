@@ -1,0 +1,58 @@
+# Go build files
+/bin/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.*.local
+
+# Vendor dependencies
+/vendor/
+
+# Coverage files
+coverage.out
+
+# Cache
+/.cache
+
+# Static analysis
+staticcheck.conf
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Test output
+test-results/
+*.coverprofile
+
+# Caddy local files
+Caddyfile.local
